@@ -7,6 +7,7 @@ import "./Experience.css";
 import { experience } from "../../portfolio.js";
 import { Fade } from "react-reveal";
 import ExperienceImg from "./ExperienceImg";
+import ExperienceCard from "../../components/experienceCard/ExperienceCard";
 
 // const experience = {
 // 	title: "Experience",
@@ -154,11 +155,7 @@ class Experience extends Component {
           <Fade bottom duration={2000} distance="40px">
             <div className="experience-heading-div">
               <div className="experience-heading-img-div">
-                {/* <img
-									src={require(`../../assests/images/${experience["header_image_path"]}`)}
-									alt=""
-								/> */}
-                <ExperienceImg theme={theme} />
+                <img src={`/experience.svg`} alt="" />
               </div>
               <div className="experience-heading-text-div">
                 <h1
@@ -183,7 +180,19 @@ class Experience extends Component {
             </div>
           </Fade>
         </div>
-        <ExperienceAccordion sections={experience["sections"]} theme={theme} />
+        <div style={{ margin: 50 }}>
+          {experience.experiences.map((exp, index) => {
+            return (
+              <ExperienceCard
+                index={index}
+                totalCards={experience.experiences.length}
+                experience={exp}
+                theme={theme}
+              />
+            );
+          })}
+        </div>
+
         <Footer theme={this.props.theme} onToggle={this.props.onToggle} />
         <TopButton theme={this.props.theme} />
       </div>

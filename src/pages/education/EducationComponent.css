@@ -69,3 +69,13 @@
     flex-direction: column;
   }
 }
+
+.education-wrapper {
+  width: 100%;
+}
+
+body > div#root {
+  width: 100vw;
+  margin: 0px;
+  padding: 0px;
+}

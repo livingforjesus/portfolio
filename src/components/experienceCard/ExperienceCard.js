@@ -14,13 +14,11 @@ class ExperienceCard extends Component {
         style={{ marginTop: index === 0 ? 30 : 50 }}
       >
         <Fade left duration={2000} distance="40px">
-          <div className="experience-card-logo-div">
-            <img
-              className="experience-card-logo"
-              src={require(`../../assests/images/${experience["logo_path"]}`)}
-              alt=""
-            />
-          </div>
+          <img
+            className="experience-card-logo"
+            src={require(`../../assests/images/${experience["logo_path"]}`)}
+            alt=""
+          />
         </Fade>
         <div className="experience-card-stepper">
           <div
@@ -106,7 +104,11 @@ class ExperienceCard extends Component {
                 }}
               >
                 <div className="repo-description" />
-                {experience["description"]}
+                <ul>
+                  {experience["description"].map((point) => (
+                    <li>{point}</li>
+                  ))}
+                </ul>
               </div>
             </div>
           </div>

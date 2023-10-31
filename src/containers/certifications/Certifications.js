@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./Certifications.css";
-import { Fade } from "react-reveal";
 import { certifications } from "../../portfolio";
+import { Fade } from "react-reveal";
 import CertificationCard from "../../components/certificationCard/CertificationCard";
 
 class Certifications extends Component {
@@ -14,6 +14,14 @@ class Certifications extends Component {
             <h1 className="certs-header" style={{ color: theme.text }}>
               Certifications
             </h1>
+            <p
+              style={{
+                textAlign: "center",
+              }}
+            >
+              I made use of certifications in my learning process to acquire my
+              tech skills. Here are some of my certifications.
+            </p>
           </Fade>
         </div>
         <div className="certs-body-div">

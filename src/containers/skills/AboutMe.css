@@ -1,0 +1,25 @@
+.about-main-div {
+  display: flex;
+  overflow: hidden;
+}
+
+.about-info {
+  display: flex;
+  gap: 40px;
+}
+
+.about-info img {
+  width: 300px;
+  height: 400px;
+}
+
+@media (max-width: 800px) {
+  .about-info {
+    flex-direction: column;
+  }
+
+  .about-info img {
+    width: 100%;
+    object-fit: cover;
+  }
+}
