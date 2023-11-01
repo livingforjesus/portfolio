@@ -32,7 +32,7 @@ const greeting = {
 
 const socialMediaLinks = [
   {
-    name: "Github",
+    name: "GitHub",
     link: "https://github.com/livingforjesus",
     fontAwesomeIcon: "fab fa-github",
     backgroundColor: "#181717",
@@ -64,9 +64,9 @@ const skills = {
       title: "Full Stack Development",
       image: "full_stack_img",
       skills: [
-        "⚡ Design and develop both the frontend and backend components of web applications, ensuring they function seamlessly together.",
-        "⚡ Collaborate with cross-functional teams to create user-friendly interfaces and robust server-side systems.",
-        "⚡ Troubleshoot and debug software issues across the entire technology stack, from databases to user interfaces, to maintain optimal performance.",
+        "⚡ Design and develop both the frontend and backend components of web applications, ensuring they function seamlessly together",
+        "⚡ Collaborate with cross-functional teams to create user-friendly interfaces and robust server-side systems",
+        "⚡ Troubleshoot and debug software issues across the entire technology stack, from databases to user interfaces, to maintain optimal performance",
       ],
       softwareSkills: [
         {
@@ -114,13 +114,13 @@ const skills = {
       ],
     },
     {
-      title: "Cloud Infra-Architecture",
+      title: "Cloud Infrastructure",
       image: "cloud_infra",
       skills: [
-        "⚡ Configure and manage cloud infrastructure to host and scale web applications, ensuring they are highly available and reliable.",
-        "⚡ Work with cloud service providers to optimize resource allocation, cost-effectiveness, and security of the infrastructure.",
-        "⚡ Monitor and fine-tune the cloud environment to meet the evolving needs of the applications, implementing scalability and disaster recovery strategies when necessary.",
-        "⚡ Using infrastructure as code tools like terraform to orchestrate cloud resources.",
+        "⚡ Configure and manage cloud infrastructure to host and scale web applications, ensuring they are highly available and reliable",
+        "⚡ Work with cloud service providers to optimize resource allocation, cost-effectiveness, and security of the infrastructure",
+        "⚡ Monitor and fine-tune the cloud environment to meet the evolving needs of the applications, implementing scalability and disaster recovery strategies when necessary",
+        "⚡ Using infrastructure as code tools like terraform to orchestrate cloud resources",
       ],
       softwareSkills: [
         {
@@ -178,9 +178,9 @@ const skills = {
       title: "Embedded Systems",
       image: "design",
       skills: [
-        "⚡ Design and develop the firmware and software for embedded systems and robotics, ensuring seamless integration of hardware and software components.",
-        "⚡ Collaborate with interdisciplinary teams to create autonomous robots and embedded devices with specific functionalities.",
-        "⚡ Debug and fine-tune embedded systems and robotics software to enhance performance, control, and adaptability.",
+        "⚡ Design and develop the firmware and software for embedded systems and robotics, ensuring seamless integration of hardware and software components",
+        "⚡ Collaborate with interdisciplinary teams to create autonomous robots and embedded devices with specific functionalities",
+        "⚡ Debug and fine-tune embedded systems and robotics software to enhance performance, control, and adaptability",
       ],
       softwareSkills: [
         {
@@ -267,30 +267,34 @@ const degrees = {
   degrees: [
     {
       title: "National Open University of Nigeria",
-      subtitle: "College degree",
+      subtitle: "Bachelor of Science in Computer Science (4.5/5.0)",
       logo_path: "noun.jpeg",
       alt_name: "NOUN",
       duration: "2022 - Present",
+      description: "I have completed the following courses:",
       descriptions: [
-        "⚡ I am currently studying computer science here",
-        "⚡ Taking courses on operating systems, embedded systems, Networks, Data structures etc.",
-        "⚡ Created a study group for other course mates studying CS.",
+        "⚡ Data Structures",
+        "⚡ Discrete Structures",
+        "⚡ Software Architecture",
+        "⚡ Structured Programming",
+        "⚡ Software Engineering I",
+        "⚡ Systems Analysis and Design",
+        "⚡ Linear Algebra",
+        "⚡ Calculus I/II",
       ],
       website_link: "https://nou.edu.ng/",
     },
     {
       title: "Hands to Hold Academy",
-      subtitle: "High school degree",
+      subtitle: "High School Degree (3.95/4.00 - Valedictorian)",
       logo_path: "hs.jpeg",
       alt_name: "H2H",
       duration: "2016 - 2021",
       descriptions: [
-        "⚡ I studied and got my high school degree",
-        "⚡ Was involved in robotics club, computer science club and math club",
-        "⚡ Was part of the varsity football(soccer) team. Won a local football tournament",
-        "⚡ Graduated top of my class and valedictorian",
+        "⚡ Graduated at the top of my class as valedictorian",
+        "⚡ Participated in Robotics Club, Computer Science Club, and Math Club",
+        "⚡ Was a member of the varsity football team and won a local tournament",
       ],
-      website_link: "#",
     },
   ],
 };
@@ -345,14 +349,19 @@ const experience = {
       company_url: "http://riptechnologies.com",
       logo_path: "riptech.png",
       duration: "March 2023 - Present",
-      location: "Miami Florida, US",
+      location: "Miami, Florida",
       description: [
-        "I am working on a print on demand software that is used by designers to start a print on demand business",
-        "Maintained ecommerce accounting software",
-        "Upgraded authentication system to use next-auth",
-        "Worked on uploads and branding features of the application",
-        "Utilized Etsy and Shopify APIs to implement key features of the application",
-        "Was key in developing of MVP of their print on demand software",
+        "Working in a full-time capacity as a full-stack developer using TypeScript, Next.js, React, AWS, and more",
+        "Created an uploads page that mimics Google Drive using AWS Lambda functions to upload files to S3",
+        "Created an open source drag selection library",
+        "Implementing the pricing logic for the entire product catalog",
+        "Implemented a task queuing system to track failed webhook events in Vercel serverless functions",
+        "Implemented a branding feature to allow users to add custom branding to their packages",
+        "Implemented the storefront UI and e-commerce checkout flows with Stripe",
+        "Implemented the backend API integrations to save data and publish listings to Etsy and Shopify",
+        "Implemented serverless webhooks to send order data to our order management software",
+        "Upgraded authentication system using next-auth",
+        "Attend daily standup meetings",
       ],
       color: "#0879bf",
     },
@@ -364,13 +373,14 @@ const experience = {
       duration: "July 2022 - May 2023",
       location: "Lagos, Nigeria",
       description: [
-        "I helped them create their event management software, restaurant management solution, hotel management solution and payment gateway. I was also involved in fundraising and hiring talent",
-        "I was in charge of building and maintaining the mobile and web apps of the company. I also aided in maintaining the servers of the company.",
-        "Built the blog entirely from scratch with the deployment model which had a traffic of about 1k page views per day.",
-        "Leveraged AWS, Azure, GCP to optimize various aspects of the application. Built the mobile app from scratch which gathered many downloads and had 20% more traction for hightable.",
-        "Built entire data infrastructure which powers the deep learning recommendation algorithm which accounts for 70% of Hightable’s revenue.",
-        "Helped the company raise $30k pre-seed funding",
-        "Helped in hiring new talent and managing our entire infrastructure",
+        "Created the event management software, restaurant management solution, hotel management solution and payment gateway",
+        "Helped with fundraising $30k in pre-seed funding",
+        "Conducted interviews to hire talent across the entire organization",
+        "Built and maintained the mobile and web applications using TypeScript, GraphQL, and Express",
+        "Deployed and maintained the cloud infrastructure using AWS",
+        "Built the company blog from scratch that peaked at over 1,000 daily page views",
+        "Built the mobile app from scratch which yielded 20% more unique users",
+        "Built a data pipeline to power a deep learning recommendation algorithm",
       ],
       color: "#9b1578",
     },
@@ -382,9 +392,9 @@ const experience = {
       duration: "May 2022 - April 2023",
       location: "Austin, Texas",
       description: [
-        "Actively engage in Agile methods such as daily scrum updates to increase team efficiency and communication.",
-        "Deploying of website/ web application on AWS (Multi-AZ & Multi-Region) to ensure high availability and low latency.",
-        "Created API’s for authentication, payment and more.",
+        "Deployed the microserviced application on AWS using multi-AZ and multi-region deployments",
+        "Implemented API routes for authentication, payment, and more using TypeScript and Contentful",
+        "Participated in daily scrum meetings",
       ],
       color: "#fc1f20",
     },
@@ -396,10 +406,8 @@ const experience = {
       duration: "May 2022 - Sep 2022",
       location: "Queensland, Australia",
       description: [
-        "I developed the events management mobile app for consumers.",
-        "I  was in charge of building and maintaining the mobile and web apps of the company.",
-        "I also aided in maintaining the servers of the company",
-        "Built the mobile application using world class technology which brought in over $10,000 income for the startup",
+        "Solely built and maintained the mobile and web applications using React Native and C#",
+        "Aided in maintaining the backend servers of the company using TypeScript",
       ],
       color: "#fc1f20",
     },
@@ -411,11 +419,12 @@ const experience = {
       duration: "Jan 2020 - April 2022",
       location: "Abuja, Nigeria",
       description: [
-        "Started off part time and became fulltime after I graduated from HS. Developed web, mobile applications for various clients",
-        "Implemented data caching for server-state in the React-js Application using React-query, resulting in a 30% reduction in time for adding features and debugging.",
-        "Developed backend applications using various programming languages",
-        "Took charge of clients projects from inception to closure which brought in 30% of the organization's income during my tenure",
-        "During this period I worked on multiple web and mobile projects for different clients. I worked on frontend, backend and cloud. I was also in charge of devops. I used various technologies from HTML to react native, AWS etc.",
+        "Handled client projects myself from inception to closure",
+        "Transitioned from part-time to full-time after graduating from high school",
+        "Worked on backend API routes using Golang",
+        "Built frontend UI from wireframes using React and Next.js",
+        "Worked on the mobile app using C# and React Native",
+        "Implemented data caching for server-state in the React application using react-query",
       ],
       color: "#fc1f20",
     },
@@ -428,45 +437,6 @@ const projectsHeader = {
   description:
     "My projects use a vast range of the latest technology tools. I have a breadth of experience with full-stack web development and data science projects.",
   avatar_image_path: "projects_image.svg",
-};
-
-const publicationsHeader = {
-  title: "Publications",
-  description:
-    "I have worked on and published a few research papers and publications of my own.",
-  avatar_image_path: "projects_image.svg",
-};
-
-const publications = {
-  data: [
-    {
-      id: "creating-a-real-time-chat-app-using-firebase-and-solid-js",
-      name: "Creating a Real-time Chat App using Firebase and Solid Js",
-      createdAt: "2023-01-16T16:26:54Z",
-      description:
-        "How to create a chat app with firebase and solid.js. Step by step guide to creating the project and the application",
-      url:
-        "https://visiondaniels32.hashnode.dev/creating-a-real-time-chat-app-using-firebase-and-solid-js",
-    },
-    {
-      id: "backend-web-development-trends-for-2023",
-      name: "Backend Web Development Trends for 2023",
-      createdAt: "2023-01-17T16:26:54Z",
-      description:
-        "Analysis, based on past years, of current trends we're noticing in the backend web development space in 2023",
-      url:
-        "https://visiondaniels32.hashnode.dev/backend-web-development-trends-for-2023",
-    },
-    {
-      id: "backend-web-development-trends-for-2023",
-      name: "Step 1: Introduction to Quantum Computing",
-      createdAt: "2032-01-19T16:26:54Z",
-      description:
-        "The first episode in my journey to understanding more about quantum computing, learning and sharing more about it",
-      url:
-        "https://visiondaniels32.hashnode.dev/episode-0-introduction-to-quantum-computing",
-    },
-  ],
 };
 
 // Contact Page
@@ -511,7 +481,5 @@ export {
   certifications,
   experience,
   projectsHeader,
-  publicationsHeader,
-  publications,
   contactPageData,
 };
