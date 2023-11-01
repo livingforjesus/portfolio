@@ -1,90 +1,90 @@
 {
   "data": [
     {
-      "id": "MCEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-      "name": "Git bob",
-      "createdAt": "2022-12-06T16:26:54Z",
-      "url": "https://github.com/psecuresystem/gitbob",
-      "description": "My own custom version of git with functionalities like commit, stash, fetch etc. It is built with golang and is a cli tool that you could use instead of git (not recommended). It is missing some features like remote, git add(its auto) etc but it works.",
-      "isFork": false,
-      "languages": [
-        {
-          "name": "Golang",
-          "iconifyClass": "skill-icons:golang"
-        }
-      ]
-    },
-    {
-      "id": "REactdRAGsELECTion=",
-      "name": "React drag selection",
-      "createdAt": "2023-10-06T16:26:54Z",
-      "url": "https://www.npmjs.com/package/react-drag-selection",
-      "description": "A react library for drag to select--which is better than 70% of the alternatives. With just a classname and a react hook, you can add drag to select functionality to your react app.",
-      "isFork": false,
-      "languages": [
-        {
-          "name": "TypeScript",
-          "iconifyClass": "teenyicons:typescript-solid"
-        },
-        {
-          "name": "Docker",
-          "iconifyClass": "logos:docker-icon"
-        }
-      ]
-    },
-    {
-      "id": "ProgrammingLang=",
-      "name": "Quantum computing programming language",
       "createdAt": "2023-01-02T16:26:54Z",
-      "url": "https://github.com/psecuresystem/holy-q",
-      "description": "A custom programming language for quantum computing. It is built with typescript and using mathematical methods and quantum computing concepts, makes programming quantum computers easy.",
+      "description": "A custom programming language for quantum computing built with TypeScript that leverages mathematical methods and quantum computing concepts.",
+      "id": "ProgrammingLang=",
       "isFork": false,
       "languages": [
         {
-          "name": "TypeScript",
-          "iconifyClass": "teenyicons:typescript-solid"
+          "iconifyClass": "teenyicons:typescript-solid",
+          "name": "TypeScript"
         }
-      ]
+      ],
+      "name": "Quantum Computing Programming Language",
+      "url": "https://github.com/psecuresystem/holy-q"
     },
     {
-      "id": "WHATSAPPSmsBot=",
-      "name": "WhatsApp SMS Bot",
       "createdAt": "2022-12-06T16:26:54Z",
-      "url": "https://github.com/psecuresystem/whatsapp-sms-bot",
-      "description": "A whatsapp bot that listens to a whatsapp group for messages, filters and formats the message and then posts the correct messages on an app, via SMS, Facebook and Twitter. It was built as part of a mobile app project for a church.",
+      "description": "My own custom version of Git with functionality for commit, stash, fetch, etc. It is a CLI tool built with Golang that can be used as an alternative to Git.",
+      "id": "MCEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
       "isFork": false,
       "languages": [
         {
-          "name": "Javascript",
-          "iconifyClass": "logos:javascript"
-        },
-        {
-          "name": "Docker",
-          "iconifyClass": "logos:docker-icon"
+          "iconifyClass": "skill-icons:golang",
+          "name": "Golang"
         }
-      ]
+      ],
+      "name": "GitBob",
+      "url": "https://github.com/psecuresystem/gitbob"
     },
     {
-      "id": "WHATSAPPSmsBot=",
-      "name": "Bills Padi",
-      "createdAt": "2022-01-06T16:26:54Z",
-      "url": "http://github.com/psecuresystem/Bills-Padi/",
-      "description": "A mobile app calles bills padi that helps users to be able to pay bills using loans. They could pay their airtime, data, nepa bills etc all with loans.",
+      "createdAt": "2023-10-06T16:26:54Z",
+      "description": "An open source library for drag selection in React that I built since no better solution existed.",
+      "id": "REactdRAGsELECTion=",
       "isFork": false,
       "languages": [
         {
-          "name": "Flutter",
-          "iconifyClass": "logos:flutter"
+          "iconifyClass": "teenyicons:typescript-solid",
+          "name": "TypeScript"
         },
         {
-          "name": "Node js",
-          "iconifyClass": "logos:nodejs"
-        },
-        {
-          "name": "Javascript",
-          "iconifyClass": "logos:javascript"
+          "iconifyClass": "logos:docker-icon",
+          "name": "Docker"
         }
-      ]
+      ],
+      "name": "react-drag-selection",
+      "url": "https://www.npmjs.com/package/react-drag-selection"
+    },
+    {
+      "createdAt": "2022-12-06T16:26:54Z",
+      "description": "A WhatsApp bot that I built for a church that listens to a WhatsApp group for messages, filters and formats messages, then posts them to WhatsApp, SMS, Facebook, and Twitter.",
+      "id": "WHATSAPPSmsBot=",
+      "isFork": false,
+      "languages": [
+        {
+          "iconifyClass": "logos:javascript",
+          "name": "Javascript"
+        },
+        {
+          "iconifyClass": "logos:docker-icon",
+          "name": "Docker"
+        }
+      ],
+      "name": "WhatsApp SMS Bot",
+      "url": "https://github.com/psecuresystem/whatsapp-sms-bot"
+    },
+    {
+      "createdAt": "2022-01-06T16:26:54Z",
+      "description": "A mobile app built with Flutter that helps users pay bills using loans.",
+      "id": "WHATSAPPSmsBot=",
+      "isFork": false,
+      "languages": [
+        {
+          "iconifyClass": "logos:flutter",
+          "name": "Flutter"
+        },
+        {
+          "iconifyClass": "logos:nodejs",
+          "name": "Node js"
+        },
+        {
+          "iconifyClass": "logos:javascript",
+          "name": "Javascript"
+        }
+      ],
+      "name": "Bills Padi",
+      "url": "http://github.com/psecuresystem/Bills-Padi/"
     }
   ]
 }

@@ -38,13 +38,12 @@ export default function AboutMe(props) {
             include furthering my education, possibly pursuing a higher degree,
             and cementing my place as a future robotics expert. Every project
             and interaction adds to this exciting journey, making me even more
-            passionate about the limitless possibilities that lie ahead.
+            passionate about the limitless possibilities that lay ahead.
           </p>
           <p>
-            Although most of my contributions are on private repositories, you
-            can find my Github{" "}
-            <a href="https://github.com/livingforjesus">here</a> and{" "}
-            <a href="https://github.com/psecuresystem">here</a>
+            Although most of my contributions are on private repositories, check
+            out my <a href="https://github.com/livingforjesus">GitHub</a> to see
+            my projects and contributions.
           </p>
         </div>
       </div>

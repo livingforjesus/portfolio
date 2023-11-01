@@ -97,6 +97,18 @@ class Header extends Component {
                 </NavLink>
               </li>
               <li>
+                <a
+                  href="https://visiondaniels32.hashnode.dev"
+                  style={{ color: theme.text }}
+                  target="_blank"
+                  onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
+                  onMouseOut={(event) => onMouseOut(event)}
+                  rel="noreferrer"
+                >
+                  Blog
+                </a>
+              </li>
+              <li>
                 <NavLink
                   to="/contact"
                   tag={Link}

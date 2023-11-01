@@ -1,13 +1,10 @@
 {
   "private": true,
-  "name": "master-portfolio",
-  "version": "0.1.0",
-  "homepage": ".",
+  "name": "vision-portfolio",
+  "version": "1.0.0",
   "scripts": {
     "build": "react-scripts build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b gh-pages -d build",
-    "eject": "react-scripts eject",
     "start": "react-scripts start",
     "test": "react-scripts test"
   },
