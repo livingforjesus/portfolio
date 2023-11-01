@@ -392,8 +392,9 @@ const experience = {
       duration: "May 2022 - April 2023",
       location: "Austin, Texas",
       description: [
-        "Deployed the microserviced application on AWS using multi-AZ and multi-region deployments",
-        "Implemented API routes for authentication, payment, and more using TypeScript and Contentful",
+        "Deployed the microserviced application on AWS using Docker, multi-AZ and multi-region deployments",
+        "Worked on various pages and components in the web application using React and Next.js",
+        "Implemented API routes for authentication, payment, and more using TypeScript, Express, PHP, and Contentful",
         "Participated in daily scrum meetings",
       ],
       color: "#fc1f20",
@@ -406,7 +407,8 @@ const experience = {
       duration: "May 2022 - Sep 2022",
       location: "Queensland, Australia",
       description: [
-        "Solely built and maintained the mobile and web applications using React Native and C#",
+        "Solely built and maintained the web application using React and Next.js",
+        "Solely built and maintained the mobile application using React Native and C#",
         "Aided in maintaining the backend servers of the company using TypeScript",
       ],
       color: "#fc1f20",
