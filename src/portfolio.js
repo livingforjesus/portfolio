@@ -266,25 +266,6 @@ const competitiveSites = {
 const degrees = {
   degrees: [
     {
-      title: "National Open University of Nigeria",
-      subtitle: "Bachelor of Science in Computer Science (4.5/5.0)",
-      logo_path: "noun.jpeg",
-      alt_name: "NOUN",
-      duration: "2022 - Present",
-      description: "I have completed the following courses:",
-      descriptions: [
-        "⚡ Data Structures",
-        "⚡ Discrete Structures",
-        "⚡ Software Architecture",
-        "⚡ Structured Programming",
-        "⚡ Software Engineering I",
-        "⚡ Systems Analysis and Design",
-        "⚡ Linear Algebra",
-        "⚡ Calculus I/II",
-      ],
-      website_link: "https://nou.edu.ng/",
-    },
-    {
       title: "Hands to Hold Academy",
       subtitle: "High School Degree (3.95/4.00 - Valedictorian)",
       logo_path: "hs.jpeg",
