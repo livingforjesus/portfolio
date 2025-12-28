@@ -25,7 +25,7 @@ const greeting = {
   subTitle:
     "A creative software engineer and problem solver using code to shape the world.",
   resumeLink:
-    "https://drive.google.com/file/d/1L2CkfRCPP-B7H2j_NhjblHEGGgoodR_1/view?usp=sharing",
+    "https://drive.google.com/file/d/145Va0g5Q-GuhuHs-P4oaXzZKZ12vd9G7/view?usp=sharing",
   portfolio_repository: "https://github.com/livingforjesus/portfolio",
   githubProfile: "https://github.com/livingforjesus",
 };
@@ -39,7 +39,7 @@ const socialMediaLinks = [
   },
   {
     name: "LinkedIn",
-    link: "https://linkedin.com/in/vision-onyeaku-b51a98201/",
+    link: "https://linkedin.com/in/vision-onyeaku-570b23262/",
     fontAwesomeIcon: "fab fa-linkedin-in",
     backgroundColor: "#0077B5",
   },
@@ -275,6 +275,17 @@ const degrees = {
         "⚡ Graduated at the top of my class as valedictorian",
         "⚡ Participated in Robotics Club, Computer Science Club, and Math Club",
         "⚡ Was a member of the varsity football team and won a local tournament",
+      ],
+    },
+    {
+      title: "National Open University of Nigeria",
+      subtitle: "B.Sc in Computer Science",
+      logo_path: "noun.png",
+      alt_name: "NOUN",
+      duration: "2022 - 2025",
+      descriptions: [
+        "⚡ Graduated with a Second Class Upper Division",
+        "⚡ Took courses on Operating Systems, Distributed Systems, Computer Networks, etc",
       ],
     },
   ],
